@@ -612,7 +612,7 @@ f. We may change these Terms at any time. When we do so, we will make a new copy
 				Legal
 			</Text>
 			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				Pricay Policy
+				Privacy Policy
 			</Text>
 			<Text as="p" font="--lead" margin="40px 0 20px 0" text-align="left">
 				Information You Provide. 

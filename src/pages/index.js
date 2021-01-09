@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link, Text, Box, Strong, Image, Icon, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { Section, Override, StackItem, Stack, Formspree } from "@quarkly/components";
-import { MdArrowDownward, MdLocationOn, MdEmail } from "react-icons/md";
+import { MdArrowDownward } from "react-icons/md";
 export default (() => {
 	return <Theme theme={theme}>
 		<Helmet>
@@ -439,68 +439,6 @@ export default (() => {
 				</Text>
 				<Icon category="md" margin="0 auto" icon={MdArrowDownward} />
 			</Box>
-		</Section>
-		<Section
-			color="--light"
-			padding="100px 0"
-			sm-padding="40px 0"
-			position="relative"
-			background="linear-gradient(0deg,rgba(25, 30, 34, 0.8) 0%,rgba(25, 30, 34, 0.8) 100%),--color-darkL2 url(https://images.unsplash.com/photo-1547619292-240402b5ae5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80)"
-		>
-			<Stack>
-				<StackItem width="50%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box
-						padding="0 0 0 64px"
-						sm-padding="64px 0 0 0"
-						margin="32px 0 0 0"
-						max-width="360px"
-						position="relative"
-					>
-						<Icon
-							position="absolute"
-							size="48px"
-							top="0"
-							left="0"
-							category="md"
-							icon={MdLocationOn}
-						/>
-						<Text as="h4" margin="6px 0" font="--base">
-							Our Address
-						</Text>
-						<Text as="p" margin="6px 0" font="--headline3">
-							306, Kolimi Heights, Ulsoor,{" "}
-							<br />
-							Bangalore 56008
-						</Text>
-					</Box>
-					<Box
-						padding="0 0 0 64px"
-						sm-padding="64px 0 0 0"
-						margin="64px 0 0 0"
-						max-width="360px"
-						position="relative"
-					>
-						<Icon
-							position="absolute"
-							size="48px"
-							top="0"
-							left="0"
-							category="md"
-							icon={MdEmail}
-						/>
-						<Text as="h4" margin="6px 0" font="--base">
-							Email us
-						</Text>
-						<Text as="p" margin="6px 0" font="--headline3">
-							<Link href="mailto:hello@company.com" text-decoration="none" hover-text-decoration="underline" color="--light">
-								hello@gigsfor.me
-							</Link>
-						</Text>
-					</Box>
-				</StackItem>
-				<StackItem width="50%" md-width="100%" />
-			</Stack>
 		</Section>
 		<Section
 			color="--light"
